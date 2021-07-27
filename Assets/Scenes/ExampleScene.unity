@@ -249,4 +249,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0ffc0911b03c46c42a1c0a17819ac349, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enemySettings: {fileID: 11400000, guid: c21f295cf02217b41a7566e27fd0fde1, type: 2}
+  enemyPropertiesPresets: {fileID: 11400000, guid: c00d8f61140becf4d905804b4506306f, type: 2}
