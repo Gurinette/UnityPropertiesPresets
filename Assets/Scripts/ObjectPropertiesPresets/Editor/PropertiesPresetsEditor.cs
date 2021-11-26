@@ -1,6 +1,6 @@
 using UnityEditor;
 
-[CustomEditor(typeof(PropertiesPresets<>), true)]
+[CustomEditor(typeof(PropertiesPresetsBase), true)]
 public class PropertiesPresetsEditor : Editor
 {
     private int newSelection = 0;
@@ -9,7 +9,7 @@ public class PropertiesPresetsEditor : Editor
     {
         EditorGUILayout.LabelField("Current Active Preset", EditorStyles.boldLabel);
 
-        IPropertiesPresets<Preset> properitesPresets = (IPropertiesPresets<Preset>)target;
+        IPropertiesPresets properitesPresets = (IPropertiesPresets)target;
 
         string[] presetNames = properitesPresets.GetPresetsNames();
 

@@ -1,4 +1,4 @@
-    public interface IPropertiesPresets<out T> where T : Preset
+    public interface IPropertiesPresets
     {
         public string[] GetPresetsNames();
         public void SetActivePresetIndex(int index);
