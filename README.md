@@ -14,6 +14,7 @@ Some use case scenarios include the ability to toggle between release and debug 
 things like tutorials for faster iterations, or having multiple presets for an enemy stats to see how different presets feel.
 
 To create new presets for your game, you simply right click in your project tab, then Create > Properties Presets Script.
+NOTE: If you do not see this option, make sure that the ScriptTemplates folder is in the root of your Assets folder, and restart Unity.
 <br />
 ![alt text](https://github.com/Gurinette/UnityPropertiesPresets/blob/master/Instructions/PropertiesPresetsScript.png?raw=true)
 <br />
